@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperaure Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <header class="head1"></header>
+      <header class="head" id="head">
+          <nav id="navbar">Temperature Calculator
+              <p><sup id="col" >Celcius&#8644; Kelvin &#8644;Fahrenheit &#8644; Celcius</sup></p>
+          </nav>
+      </header>
+      <hr>
+    <div class="Temperature-1">
+      <span>Temperature in Celcius:</span>
+      <input
+        type="text"
+        id="celcius-1"
+        placeholder="Enter Temperature in Celcius"
+      />
+      <span>°C</span>
+      <br />
+      <br>
+      <button onclick="ctok()" type="button" id="k">To Kelvin</button>    	&#8594;	&#8594;	&#8594;	&#8594;
+      <button type="text" id="ctok" class="q"> </button>K
+      <br />
+      <br>
+      <button onclick="ctof()" type="button" id="f">To Fahrenheit</button>	&#8594;	&#8594;	&#8594;
+      <button type="button" id="ctof" class="q"></button>°F<br>
+      <hr>
+    </div>
+    <div class="Temperature-2">
+      <span>Temperature in Kelvin:</span>
+      <input
+        type="text"
+        id="kelvin-1"
+        placeholder="Enter Temperature in Kelvin"
+      />
+      <span>K</span>
+      <br />
+      <br>
+      <button onclick="ktoc()" type="button" id="c">To Celcius</button>	&#8594;	&#8594;	&#8594;	&#8594;
+      <button type="button" id="ktoc" class="q"></button>°C
+      <br />
+      <br>
+      <button onclick="ktof()" type="button" id="f">To Fahrenheit</button>	&#8594;	&#8594;	&#8594;
+      <button type="button" id="ktof" class="q"></button>°F
+      <hr>
+    </div>
+    <div class="Temperature-3">
+      <span>Temperature in Fahrenheit:</span>
+      <input
+        type="text"
+        id="Fahrenheit-1"
+        placeholder="Enter Temperature in Fahrenheit"
+      />
+      <span>°F</span>
+      <br />
+      <br>
+      <button onclick="ftok()" type="button" id="k">To Kelvin</button>	&#8594;	&#8594;	&#8594;	&#8594;
+      <button type="button" id="ftok" class="q"></button>K
+      <br />
+      <br>
+      <button onclick="ftoc()" type="button" id="c">To Celcius</button>	&#8594;	&#8594;	&#8594;	&#8594;
+      <button type="button" id="ftoc" class="q"></button>°C
+      <hr>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
