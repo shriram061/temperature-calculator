@@ -40,7 +40,7 @@ function ftok()
 function ftoc()
 {
     let c1=document.getElementById("Fahrenheit-1").value;
-    // (32°F − 32) × 5/9
+    // (32°F−32) × 5/9
     let jk=parseFloat(c1);
     let fc=parseFloat((jk-32)*(5/9));
     document.getElementById('ftoc').innerHTML=fc;
