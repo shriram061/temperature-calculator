@@ -20,10 +20,10 @@
 }
 hr{
     padding: 5px;
-    background-color: red;
+    background-color: black;
 }
 #c{
-    background-color: yellow;
+    background-color: pink;
     padding: 5px;
 }
 #f{
@@ -42,9 +42,11 @@ hr{
 {
     text-align: center;
     padding: 10px;
+    border-left:    300px solid red;
+    border-right:  300px solid red;
 } 
 a:visited,a:link{
-    color: blue;
+    color: red;
    }
    a:hover
    {
@@ -68,4 +70,31 @@ sup{
 }
 .q{
     background-color: orange;
+}
+#celcius-1
+{
+    background-color: peachpuff;
+}
+.Temperature-1
+{
+    border-left:    300px solid peachpuff ;
+    border-right:  300px solid peachpuff ;
+}
+#kelvin-1
+{
+    background-color: rgb(60, 224, 224);
+}
+.Temperature-2
+{
+    border-left:    300px solid rgb(60, 224, 224) ;
+    border-right:  300px solid rgb(60, 224, 224) ;
+}
+#Fahrenheit-1
+{
+    background-color: rgb(69, 236, 69);
+}
+.Temperature-3
+{
+    border-left:    300px solid rgb(69, 236, 69) ;
+    border-right:  300px solid rgb(69, 236, 69) ;
 }
