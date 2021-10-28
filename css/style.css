@@ -42,11 +42,10 @@ hr{
 {
     text-align: center;
     padding: 10px;
-    border-left:    300px solid red;
-    border-right:  300px solid red;
+    background-color: rgb(255, 0, 0);
 } 
 a:visited,a:link{
-    color: red;
+    color: rgb(29, 144, 179);
    }
    a:hover
    {
@@ -73,28 +72,26 @@ sup{
 }
 #celcius-1
 {
-    background-color: peachpuff;
+    background-color: orange;
 }
 .Temperature-1
 {
-    border-left:    300px solid peachpuff ;
-    border-right:  300px solid peachpuff ;
+   background-color: peachpuff;
 }
 #kelvin-1
 {
-    background-color: rgb(60, 224, 224);
+    background-color: orange;
 }
 .Temperature-2
 {
-    border-left:    300px solid rgb(60, 224, 224) ;
-    border-right:  300px solid rgb(60, 224, 224) ;
+    background-color: rgb(60, 224, 224) ;
+    
 }
 #Fahrenheit-1
 {
-    background-color: rgb(69, 236, 69);
+    background-color: orange;
 }
 .Temperature-3
 {
-    border-left:    300px solid rgb(69, 236, 69) ;
-    border-right:  300px solid rgb(69, 236, 69) ;
+    background-color: rgb(69, 236, 69) ;
 }
